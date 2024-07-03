@@ -1,0 +1,22 @@
+html{
+    box-sizing: border-box;
+}
+*,
+* ::before,
+* ::after{
+    box-sizing: inherit;
+}
+
+.menu-container{
+    display: felx;
+    border: 2px solid brown;
+}
+
+.menu{
+    display: flex;
+}
+
+.item{
+    color: orangered;
+    font-weight: 700;
+}
