@@ -7,16 +7,30 @@ html{
     box-sizing: inherit;
 }
 
-.menu-container{
-    display: felx;
-    border: 2px solid brown;
+*{
+    padding: 0;
+    margin: 0;
 }
 
-.menu{
+.menu-container{
     display: flex;
 }
 
+.menu-container div{
+    border: 2px solid blue;
+    padding: 20px 0;
+    background-color: aquamarine;
+    flex:1;    
+    padding: 20px ;
+    
+}
+
+.menu-container .item1{
+    flex: 3 1 0%;
+}
+
 .item{
-    color: orangered;
+    color: blue;
     font-weight: 700;
+    padding: 7px;
 }
